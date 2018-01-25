@@ -11,15 +11,25 @@
     "react-scripts": "1.1.0"
   },
   "lint-staged": {
-     "src/**/*.{js,jsx,json,css}": [
-        "prettier --single-quote --write"
-      ]
-    },
+    "src/**/*.{js,jsx,json,css}": [
+      "prettier --single-quote --write"
+    ]
+  },
   "scripts": {
     "prettier": "lint-staged",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.9",
+    "@storybook/react": "^3.3.10",
+    "@storybook/addon-actions": "^3.3.10",
+    "@storybook/addon-links": "^3.3.10",
+    "@storybook/addons": "^3.3.10",
+    "babel-core": "^6.26.0"
   }
 }
