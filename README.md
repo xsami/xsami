@@ -1,3 +1,1 @@
-# Hello World
-
-Hi everyone :)
+![Samil's github stats](https://github-readme-stats.vercel.app/api?username=xsami&show_icons=true&theme=radical)
