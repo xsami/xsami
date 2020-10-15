@@ -1,1 +1,5 @@
-![Samil's github stats](https://github-readme-stats.vercel.app/api?username=xsami&show_icons=true&theme=radical)
+```c
+main() {
+  printf("Hello World!");
+}
+```
