@@ -1,5 +1,3 @@
-```c
-main() {
-  printf("Hello World!");
-}
+```elixir
+IO.puts "Hello World"
 ```
